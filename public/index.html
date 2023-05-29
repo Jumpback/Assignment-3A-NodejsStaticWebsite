@@ -1,12 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login/register</title>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
 </head>
+
 <body>
-    <h1>HELLOOOOOOOO</h1>
+    <div data-role="header" data-theme="a">
+        <h1>Omkar Nagare</h1>
+    </div>
+    <div data-role="navbar" data-grid="c">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Aboutus.html">About us</a></li>
+            <li><a href="Products.html">Products</a></li>
+            <li><a href="Login_register.html" class="ui-btn-active">Login/Register</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <div>
+            <center>
+                <h2>Register</h2>
+            </center>
+        </div>
+        <div data-role="content">
+            <label>Full Name: </label>
+            <input type="text"><br>
+
+            <label>Address: </label>
+            <textarea cols="30" rows="7"></textarea>
+
+            <label>Pincode: </label>
+            <input type="text"><br>
+
+            <label>Date of Birth : </label>
+            <input type="date"><br>
+
+            <label>Email-Id: </label>
+            <input type="email"><br>
+
+            <label>Password: </label>
+            <input type="password"><br>
+
+            <label>Confirm Password: </label>
+            <input type="password"><br>
+
+            <input type="submit" value="register"><br>
+
+           <center> <a href="Login.html">Already registerd?</a> </center>
+
+        </div>
+    </div>
+
+
+    <div data-role="footer" data-theme="a">
+        <center>
+            <div class="Quick Links">
+
+                <h3>Quick Links</h3>
+
+                <a href="index.html">Home</a><br>
+                <a href="Aboutus.html">About us</a><br>
+                <a href="Products.html">Products</a><br>
+                <a href="Login_register.html">Login/Register</a> <br>
+                <p>
+                    Copyright2022 | All Rights reserverd 
+                </p>
+            </div>
+        </center>
+    </div>
+
+
+
+
 </body>
+
 </html>
